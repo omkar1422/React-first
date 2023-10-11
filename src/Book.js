@@ -7,8 +7,7 @@ const Book = (props) => {
 
         books.find((book) => {
 
-            if(book.id === id)
-            console.log(id);
+            return book.id === id;
         });
     }
 
