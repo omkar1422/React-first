@@ -27,37 +27,37 @@ const BookList = () => {
     );
 }
 
-const FormElement = () => {
+// const FormElement = () => {
 
-    const handleChange = (e) => {
-        console.log(e.target.name, e.target.value);
-        console.log('change detected');
-    }
+//     const handleChange = (e) => {
+//         console.log(e.target.name, e.target.value);
+//         console.log('change detected');
+//     }
 
-    const handleClick = (e) => {
+//     const handleClick = (e) => {
         
-        alert('Clicked on btn');
-    }
+//         alert('Clicked on btn');
+//     }
 
-    const handleFormSubmission = (e) => {
-        // e.preventDefault();
-        console.log('form submitted');
-    }
+//     const handleFormSubmission = (e) => {
+//         // e.preventDefault();
+//         console.log('form submitted');
+//     }
 
-    return(
-        <section>
-            <form onSubmit={handleFormSubmission}>
-                <input onChange={handleChange} name="email" type="text"></input>
+//     return(
+//         <section>
+//             <form onSubmit={handleFormSubmission}>
+//                 <input onChange={handleChange} name="email" type="text"></input>
                 
-            </form>
-            <button type="submit">Submit</button>
-            {/* <button onClick={handleClick} type="button" style={{margin: '1rem'}} >Click me</button>
-             */}
-            <button onClick={handleClick} type="button" style={{margin: '1rem'}} >Click me</button>
+//             </form>
+//             <button type="submit">Submit</button>
+//             {/* <button onClick={handleClick} type="button" style={{margin: '1rem'}} >Click me</button>
+//              */}
+//             <button onClick={handleClick} type="button" style={{margin: '1rem'}} >Click me</button>
                     
-        </section>
-    );
-}
+//         </section>
+//     );
+// }
 
 // const Title = (props) => {
 //     return <h2 className="book h2"> {props.title} </h2>;
